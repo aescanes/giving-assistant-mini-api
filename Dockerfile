@@ -1,4 +1,8 @@
 FROM php:7.4-cli
+
+RUN apt update
+RUN apt install -y git
+
 COPY . /usr/src/giving_assistance
 WORKDIR /usr/src/giving_assistance
 
