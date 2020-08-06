@@ -2,8 +2,6 @@
 
 This is a mini API as an example with `Category` and `Merchants` entities and all their endpoints (GET/POST/PUT/DELETE). This API doesn't have any authentication because the object is only showing a working API.
 
-All the step to 
-
 ## Requirements
 * git
 * Docker
@@ -42,6 +40,8 @@ Get all categories
 ```
 GET - http://0.0.0.0:8008/categories
 ```
+e.g. http://0.0.0.0:8008/categories
+
 Get category by id
 ```
 GET - http://0.0.0.0:8008/categories/{id}
@@ -60,6 +60,8 @@ Get all merchants
 ```
 GET - http://0.0.0.0:8008/merchants
 ```
+e.g. http://0.0.0.0:8008/merchants
+
 Get marchant by id
 ```
 GET - http://0.0.0.0:8008/merchants/{id}
@@ -83,8 +85,13 @@ Merchant
 }
 ```
 
-## Alternative path
+# Alternative path
 If you have any issues with the docker image you can run this alternative commands to get the api working.
+
+## Requirements
+git
+php 7.2 or higher
+composer
 
 ## Instalation
 ```bash
